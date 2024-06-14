@@ -70,9 +70,10 @@
     <main class="page-main">
 
       <h1 class="visually-hidden">Магазин вязанных изделий «Мишка»</h1>
+      
 
-      <section class="main-content">
-        <div class="main-content__wrapper">
+    </main>
+
           <h2 class="main-content__title">Милые штуки ручной работы для дома</h2>
           <div class="main-content__list">
             <a class="main-content__item" href="#">Предметы интерьера</a>
@@ -81,7 +82,6 @@
         </div>
       </section>
 
-    </main>
 
       <section class="top-item">
         <div class="top-item__wrapper">
@@ -125,9 +125,9 @@
 
       <section class="reviews">
         <div class="reviews__wrapper">
-          <h2 class="reviews__title">Отзывы</h2>
+          <h2 class="review__title">Отзывы</h2>
           <a class="reviews__write button" href="#">Написать</a>
-          <div class="reviews__list slider">
+          <div class="reviews__list slider__list">
 
             <blockquote class="reviews__item  slider__item">
               <div class="reviews__author-info">
@@ -161,10 +161,16 @@
           </div>
 
           <p class="reviews__pagination">
-            <button class="reviews__pagination-button reviews__pagination-button--previous" type="button">Назад</button>
-            <button class="reviews__pagination-button reviews__pagination-button--next" type="button">Вперед</button>
+            <button class="reviews__pagination-button pagination-previous" type="button">Назад</button>
+            <button class="reviews__pagination-button pagination-next" type="button">Вперед</button>
           </p>
 
+
+          <p class="reviews__toggles slider__toggles">
+            <button class="slider__toggle slider__toggle--current" type="button">1</button>
+            <button class="slider__toggle" type="button">2</button>
+            <button class="slider__toggle" type="button">3</button>
+          </p>
         </div>
 
       </section>
@@ -203,31 +209,36 @@
 
     <footer class="page-footer">
       <div class="page-footer__wrapper">
-        <a class="page-footer__logo" href="index.html" aria-label="Логотип «Мишка»"></a>
+        <a class="page-footer__logo">
+          <img src="img/logo/footer_logo.svg" width="102" height="34" alt="Логотип «Мишка»"></a>
 
         <div class="page-footer__social social">
           <ul class="social__list">
             <li class="social__item">
-              <a class="social__link social__link--instagram" href="#" aria-label="Мы в
-              Инстаграме">
+              <a class="social__link social__link--instagram" href="#">
+                <img src="img/logo/socials_insta.svg" alt="Мы в
+                  Инстаграме" width="22" height="21">
               </a>
             </li>
 
             <li class="social__item">
-              <a class="social__link social__link--facebook" href="#" aria-label="Мы в
-              Фейсбуке">
+              <a class="social__link social__link--facebook" href="#">
+                <img src="img/logo/socials_fb.svg" alt="Мы в
+                  Фейсбуке" width="15" height="28">
               </a>
             </li>
 
             <li class="social__item">
-              <a class="social__link social__link--twitter" href="#" aria-label="Мы в Твиттере">
+              <a class="social__link social__link--twitter" href="#">
+                <img src="img/logo/socials_twitter.svg" alt="Мы в Твиттере" width="23" height="20">
               </a>
             </li>
           </ul>
 
           <div class="page-footer__copyright">
             <b class="page-footer__copyright-text">Разработано</b>
-            <a class="page-footer__copyright-link" href="https://htmlacademy.ru/intensive/adaptive" aria-label="Логотип HTML Academy">
+            <a class="page-footer__copyright-link" href="https://htmlacademy.ru/intensive/adaptive">
+              <img src="img/logo/copywrite_htmlacademy_logo.svg" alt="Логотип HTML Academy" width="27" height="34">
             </a>
           </div>
 
@@ -261,7 +272,7 @@
           </fieldset>
         </form>
 
-        <button class="modal-order__add" type="submit">Добавить</button>
+        <a class="modal-order__add" href="#">Добавить</a>
       </div>
     </section>
   </body>
