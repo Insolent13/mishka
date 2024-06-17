@@ -1,0 +1,38 @@
+.page-footer {
+  background-color: $color-page-background-grey;
+}
+
+.page-footer__wrapper {
+  @media ($tablet-width) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.page-footer__logo {
+  outline: 3px solid rgb(39, 180, 58);
+  outline-offset: -3px;
+
+  @media ($mobile-width) {
+    display: none;
+  }
+}
+
+.page-footer__social {
+  @media ($mobile-width) {
+    margin-bottom: 50px;
+  }
+}
+
+.page-footer__copyright {}
+
+.page-footer__copyright-text {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 18px;
+  color: $color-basic-black;
+  margin: 0;
+}
+
+//.page-footer__copyright-link {}

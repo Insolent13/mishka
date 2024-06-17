@@ -1,0 +1,52 @@
+.about-us {
+    margin-bottom: 58px;
+}
+
+.about-us__wrapper {
+  outline: 3px dotted rgb(128, 240, 128);
+  outline-offset: -3px;
+
+  @media ($desktop-width) {
+    padding: 0 175px;
+  }
+}
+
+.about-us__title {
+  margin-bottom: 28px;
+  outline: 3px solid rgb(240, 128, 216);
+  outline-offset: -3px;
+
+  @media ($tablet-width) {
+    margin-bottom: 98px;
+  }
+
+  @media ($desktop-width) {
+    margin-bottom: 95px;
+  }
+}
+
+.about-us__list {
+  padding: 0;
+  margin: 0;
+  outline: 3px solid rgb(221, 218, 48);
+  outline-offset: -3px;
+
+  @media ($tablet-width) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.about-us__item {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  color: $color-basic-black;
+  text-align: left;
+  
+
+  &:not(:last-child) {
+    margin-bottom: 83px;
+  }
+}
