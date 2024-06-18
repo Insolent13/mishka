@@ -173,11 +173,5 @@
 }
 
 .contacts__link {
-  width: 260px;
-  margin: 0 auto;
   padding: 16px 34px;
-
-  @media ($tablet-width) {
-    width: 230px;
-  }
 }

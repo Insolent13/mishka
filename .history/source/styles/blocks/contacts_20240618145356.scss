@@ -126,10 +126,7 @@
 
 .contacts__map {
   margin-bottom: 42px;
-
-  @media ($tablet-width) {
-    margin-bottom: 5px;
-  }
+  
 
   @media ($desktop-width) {
     width: 50%;
@@ -165,19 +162,11 @@
   }
 
   @media ($desktop-width) {
-    position: absolute;
-    left: 0;
-    bottom: 40px;
     padding-left: 235px;
   }
 }
 
 .contacts__link {
-  width: 260px;
-  margin: 0 auto;
+  margin: 0;
   padding: 16px 34px;
-
-  @media ($tablet-width) {
-    width: 230px;
-  }
 }

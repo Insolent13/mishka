@@ -25,12 +25,6 @@
     display: flex;
     justify-content: space-between;
     flex-grow: 2;
-    margin-bottom: 31px;
-  }
-
-  @media ($desktop-width) {
-    display: block;
-    margin-bottom: 38px;
   }
 }
 
@@ -42,12 +36,16 @@
 }
 
 .top-item__title {
+  margin-bottom: 4px;
   outline: 3px solid rgb(13, 126, 13);
   outline-offset: -3px;
 
+  @media ($tablet-width) {
+    margin-bottom: 38px;
+  }
 
   @media ($desktop-width) {
-    margin-top: 85px;
+    margin-bottom: 35px;
   }
 }
 
@@ -71,9 +69,7 @@
 
   @media ($desktop-width) {
     position: absolute;
-    left: 32px;
-    top: 90px;
-    margin: 0;
+    left: 70px;
   }
 }
 
@@ -87,29 +83,10 @@
   margin-bottom: 28px;
   outline: 3px solid rgb(155, 30, 155);
   outline-offset: -3px;
-
-  @media ($tablet-width) {
-    font-size: 17px;
-    line-height: 30px;
-    width: 290px;
-    margin-bottom: 45px;
-  }
-
-  @media ($desktop-width) {
-    margin-bottom: 55px;
-  }
 }
 
 .top-item__table {
   margin-bottom: 28px;
-
-  @media ($tablet-width) {
-    margin-bottom: 68px;
-  }
-
-  @media ($desktop-width) {
-    margin-bottom: 123px;
-  }
 }
 
 .top-item__table tbody {
@@ -134,10 +111,6 @@
 
   &:not(:last-child) {
     margin-bottom: 28px;
-
-    @media ($tablet-width) {
-      margin-bottom: 17px;
-    }
   }
 }
 
@@ -158,7 +131,7 @@
   min-width: 159px;
 
   &:not(:last-child) {
-    margin-bottom: 17px;
+    margin-bottom: 28px;
   }
 }
 
@@ -166,14 +139,6 @@
   @media ($tablet-width) {
     width: 50%;
     flex-grow: 1;
-  }
-
-  @media ($desktop-width) {
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: -1;
-    margin-top: 25px;
   }
 }
 
@@ -208,28 +173,8 @@
   margin-bottom: 25px;
   outline: 3px solid rgb(168, 40, 40);
   outline-offset: -3px;
-
-  @media ($tablet-width) {
-    font-size: 20px;
-    line-height: 24px;
-    width: 292px;
-  }
-}
-
-.top-item__order-wrapper {
-  @media ($tablet-width) {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    margin-right: 50%;
-    padding-left: 175px;
-  }
 }
 
 .top-item__order {
   padding: 16px 70px;
-
-  @media ($tablet-width) {
-    min-width: 292px;
-  }
 }
