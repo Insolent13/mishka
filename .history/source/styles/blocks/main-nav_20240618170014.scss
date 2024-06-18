@@ -1,0 +1,30 @@
+.main-nav {
+  outline: 3px dotted rgb(240, 128, 221);
+  outline-offset: -3px;
+}
+
+.main-nav__wrapper {
+  display: flex;
+  flex-direction: column;
+
+  @media ($tablet-width) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  @media ($desktop-width) {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+  }
+}
+
+//.main-nav__wrapper-second-level{}
+
+//.main-nav__list {}
+
+.main-nav__delivery {
+  @media ($mobile-width) {
+    display: none;
+  }
+}
