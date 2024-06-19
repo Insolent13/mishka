@@ -81,40 +81,9 @@
   color: $color-text-description;
   margin: 0;
   margin-bottom: 40px;
-  padding-left: 33px;
-  padding-right: 33px;
-
-  outline: 3px solid rgb(21, 124, 30);
-  outline-offset: -3px;
-
-  @media ($tablet-width) {
-    font-size: 15px;
-    line-height: 30px;
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-
-  @media ($desktop-width) {
-    grid-column: 2;
-    grid-row: 2;
-    padding-top: 20px;
-    padding-left: 79px;
-    margin-bottom: 0;
-  }
-}
-
-.production__order-button-wrapper {
-  padding: 0 34px 31px;
-
-  @media ($desktop-width) {
-    grid-column: 2;
-    grid-row: 3;
-    align-self: center;
-    padding-top: 37px;
-    padding-bottom: 54px;
-  }
+  
 }
 
 .production__order-button {
-  padding: 15px 11px;
+  padding: 18px 11px;
 }

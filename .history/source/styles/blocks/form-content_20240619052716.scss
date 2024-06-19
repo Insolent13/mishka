@@ -315,10 +315,6 @@
   @media ($mobile-width) {
     margin-top: 21px;
   }
-
-  @media ($tablet-width) {
-    padding-left: 18px;
-  }
 }
 
 .form-content__fieldset--add {
@@ -327,7 +323,7 @@
   @media ($tablet-width) {
     align-items: baseline;
     padding-top: 50px;
-    padding-bottom: 53px;
+    padding-bottom: 49px;
   }
 
   @media ($desktop-width) {

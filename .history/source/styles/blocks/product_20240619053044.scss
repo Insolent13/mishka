@@ -18,19 +18,11 @@
   padding: 0;
   margin: 0;
 
-  @media ($desktop-width) {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 51px;
-  }
+  
 }
 
 .product__item {
   &:not(:last-child) {
-    margin-bottom: 33px;
-
-    @media ($tablet-width) {
-      margin-bottom: 54px;
-    }
+    margin-bottom: 30px;
   }
 }

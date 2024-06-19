@@ -28,9 +28,5 @@
 .product__item {
   &:not(:last-child) {
     margin-bottom: 33px;
-
-    @media ($tablet-width) {
-      margin-bottom: 54px;
-    }
   }
 }

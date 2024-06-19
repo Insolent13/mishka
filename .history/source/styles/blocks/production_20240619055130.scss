@@ -103,18 +103,8 @@
   }
 }
 
-.production__order-button-wrapper {
-  padding: 0 34px 31px;
 
-  @media ($desktop-width) {
-    grid-column: 2;
-    grid-row: 3;
-    align-self: center;
-    padding-top: 37px;
-    padding-bottom: 54px;
-  }
-}
 
 .production__order-button {
-  padding: 15px 11px;
+  padding: 18px 11px;
 }

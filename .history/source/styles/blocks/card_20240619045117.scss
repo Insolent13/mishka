@@ -52,13 +52,7 @@
   line-height: 24px;
   color: $color-basic-black;
   margin: 0;
-  padding-bottom: 5px;
-
-  @media ($tablet-width) {
-    font-size: 20px;
-    padding-top: 27px;
-    padding-bottom: 6px;
-  }
+  padding-bottom: 6px;
 }
 
 .card__characteristics {
@@ -68,12 +62,7 @@
   line-height: 30px;
   color: $color-text-description;
   margin: 0;
-  padding: 0;
-  padding-bottom: 17px;
-
-  @media ($tablet-width) {
-    font-size: 15px;
-  }
+  margin-bottom: 41px;
 }
 
 .card__price {
@@ -83,18 +72,6 @@
   line-height: 24px;
   color: $color-basic-black;
   margin: 0;
-  padding: 0;
-  padding-top: 24px;
-  padding-bottom: 25px;
-
-  @media ($tablet-width) {
-    font-size: 17px;
-  }
-
-  @media ($desktop-width) {
-    padding-top: 22px;
-    padding-bottom: 24px;
-  }
 }
 
 //.card__button {}
