@@ -70,6 +70,7 @@
   @media ($desktop-width) {
     padding-right: 15px;
   }
+  }
 }
 
 .card__characteristics {
@@ -84,28 +85,6 @@
 
   @media ($tablet-width) {
     font-size: 15px;
-  }
-
-  @media ($desktop-width) {
-    padding-bottom: 0;
-  }
-}
-
-.card__price-wrapper {
-  position: relative;
-
-  &::before {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 1px;
-    left: 0;
-    top: 0;
-    background-color: $color-border-decoration-grey;
-  }
-
-  @media ($desktop-width) {
-    padding-top: 5px;
   }
 }
 

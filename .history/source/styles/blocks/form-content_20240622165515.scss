@@ -637,10 +637,6 @@
   background-color: transparent;
   padding: 16px 45px;
 
-  @media ($mobile-width) {
-    margin: 0 auto;
-  }
-
   @media ($tablet-width) {
     padding: 16px 30px;
   }

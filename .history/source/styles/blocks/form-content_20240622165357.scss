@@ -514,7 +514,7 @@
   @media ($tablet-width) {
     background-color: $color-page-background-grey;
     padding-left: 18px;
-  }
+  
 }
 
 .form-content__fieldset--email {
@@ -527,10 +527,6 @@
     align-items: baseline;
     padding-bottom: 50px;
   }
-
-  @media ($desktop-width) {
-    padding-right: 225px;
-  }
 }
 
 .form-content__text-input--email {
@@ -540,6 +536,11 @@
   @media ($tablet-width) {
     background-color: $color-page-background-grey;
     padding-left: 18px;
+    margin-left: 43px;
+  }
+
+  @media ($desktop-width) {
+    margin-left: 35px;
   }
 }
 
@@ -636,10 +637,6 @@
   line-height: 16px;
   background-color: transparent;
   padding: 16px 45px;
-
-  @media ($mobile-width) {
-    margin: 0 auto;
-  }
 
   @media ($tablet-width) {
     padding: 16px 30px;

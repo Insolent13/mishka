@@ -73,6 +73,9 @@
 }
 
 .production__image {
+  outline: 3px solid rgb(124, 21, 21);
+  outline-offset: -3px;
+
   @media ($tablet-width) {
     width: 668px;
     height: 455px;
@@ -91,8 +94,11 @@
   color: $color-text-description;
   margin: 0;
   margin-bottom: 40px;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding-left: 33px;
+  padding-right: 33px;
+
+  outline: 3px solid rgb(21, 124, 30);
+  outline-offset: -3px;
 
   @media ($tablet-width) {
     font-size: 15px;
@@ -113,21 +119,15 @@
 .production__order-button-wrapper {
   padding: 0 34px 31px;
 
-  @media ($tablet-width) {
-    padding: 0 41px 45px;
-  }
-
   @media ($desktop-width) {
     grid-column: 2;
     grid-row: 3;
     align-self: center;
-    padding-top: 34px;
-    padding-bottom: 58px;
-    padding-left: 80px;
-    padding-right: 56px;
+    padding-top: 37px;
+    padding-bottom: 54px;
   }
 }
 
 .production__order-button {
-  padding: 14px 11px;
+  padding: 15px 11px;
 }

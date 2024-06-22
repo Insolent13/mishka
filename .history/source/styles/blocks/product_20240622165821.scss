@@ -14,9 +14,7 @@
   }
 
   @media ($desktop-width) {
-    max-width: 1150px;
-    margin: 0 auto;
-    margin-top: 112px;
+    
   }
 }
 
@@ -36,7 +34,7 @@
 
 .product__item {
   &:not(:last-child) {
-    margin-bottom: 31px;
+    margin-bottom: 33px;
 
     @media ($tablet-width) {
       margin-bottom: 54px;
