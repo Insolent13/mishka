@@ -1,0 +1,150 @@
+.modal-order {
+  display: none;
+  top: 50%;
+  transform: translateY(-50%);
+  box-shadow: 0 5px 10px rgba(0, 1, 1, 0.25);
+  background-color: $color-basic-white;
+  z-index: 5;
+  bottom: auto;
+  width: 320px;
+}
+
+.modal-order__wrapper {
+  @media ($tablet-width) {
+    width: 566px;
+    height: 336px;
+  }
+}
+
+.modal-order__title {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: $color-basic-black;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  padding-top: 28px;
+  margin-bottom: 14px;
+
+  @media ($tablet-width) {
+    font-size: 30px;
+    line-height: 57px;
+    padding-top: 39px;
+
+    br {
+      display: none;
+    }
+  }
+}
+
+.modal-order__form {
+  padding-bottom: 43px;
+}
+
+//.modal-order__form {}
+
+.modal-order__fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.modal-order__legend {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 15px;
+  line-height: 30px;
+  color: $color-text-description;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 23px;
+
+  @media ($tablet-width) {
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 17px;
+  }
+}
+
+.modal-order__control {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 30px;
+
+  @media ($tablet-width) {
+    padding-left: 58px;
+    padding-right: 58px;
+  }
+}
+
+.modal-order__control-input + .modal-order__control-label {
+  padding: 14px 34px;
+  border: 2px solid $color-basic-grey-opacity-01;
+
+  &--checked {
+    border: 2px solid $color-accent-green;
+  }
+
+  @media ($tablet-width) {
+    padding: 14px 46px;
+  }
+}
+
+//.modal-order__control-input {}
+
+.modal-order__control-label {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 16px;
+  color: $color-text-description;
+  text-align: center;
+}
+
+.modal-order__add {
+  display: block;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: $color-basic-white;
+  background-color: $color-accent-green;
+  text-align: center;
+  border: none;
+  margin: 0 auto;
+  padding: 17px 81px;
+
+  @media ($tablet-width) {
+    padding: 18px 126px;
+  }
+}
+
+.modal {
+  position: fixed;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background-color: $color-basic-white-opacity-09;
+}
+
+.modal-show {
+  display: block;
+}

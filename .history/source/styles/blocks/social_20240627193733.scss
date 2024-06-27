@@ -1,0 +1,27 @@
+//.social {}
+
+.social__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  height: 29px;
+  min-width: 142px;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+
+  @media ($tablet-width) {
+    padding-top: 10px;
+  }
+}
+
+//.social__item {}
+
+.social__link {
+  &:hover .social__logo-icon,
+  &:focus .social__logo-icon {
+    fill: $color-focus-green;
+  }
+
+
+  
